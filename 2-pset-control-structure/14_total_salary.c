@@ -5,3 +5,17 @@
   a program to read working hours of an employee and
   calculate the total salary.
 */
+
+#include <stdio.h>
+
+int main(void) {
+  int hour, tot_salary;
+  printf("Enter working hours of an employee: ");
+  scanf("%d", &hour);
+  if(hour <= 8)
+    tot_salary = hour * 100;
+  else
+    tot_salary = 8 * 100 + (hour - 8) * 120;
+  printf("\nThe total salary of an employee is %d", tot_salary);
+  return 0;
+}
