@@ -1,0 +1,5 @@
+/*
+  Write a program to count the number
+  of digits in an integer number entered 
+  by the user.
+*/

@@ -1,0 +1,5 @@
+/*
+  Write a program that inputs cost price
+  and selling price sp and then determine
+  whether there is profit or loss.
+*/

@@ -1,0 +1,4 @@
+/*
+  Write a program to check whether the
+  entered number is even or odd.
+*/

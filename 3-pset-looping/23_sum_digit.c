@@ -1,0 +1,4 @@
+/*
+  Write a program to sum the digits of any
+  integer given by the user.
+*/

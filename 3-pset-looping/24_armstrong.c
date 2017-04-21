@@ -1,0 +1,4 @@
+/*
+  Write a program to check whether the 
+  given three digit integer is Armstrong or not.
+*/
