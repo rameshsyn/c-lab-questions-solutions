@@ -3,10 +3,11 @@ It is a repo to store my solutions of c programming lab questions. BedICT 1st se
 
 ---  
 Note: These programs may not run on windows environment,
-      Make sure to include following header file and codes.
+      Make sure to include following header file and codes.  
+      
       ```
-      /* Include this header file */
-      #include <conio.h>
+      /* Include this header file */  
+      #include <conio.h>  
 
       int main() {
         // Clear screen on every program run
