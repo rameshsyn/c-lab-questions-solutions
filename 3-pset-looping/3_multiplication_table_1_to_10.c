@@ -6,14 +6,17 @@
 #include <stdio.h>
 
 int main(void) {
-  int n;
+  int n, j, i = 1;
   printf("Multiplication table from 1 to 10 \n\n");
-  for(int i = 1; i <= 10; i++) {
+  do {
     printf("============== Multiplication table of %d =============== \n", i);
-    for(int j = 1; j <= 10; j++) {
+    j = 1;
+    do {
       printf("%d * %d = %d\n", i, j, i * j);
-    }
+      j++;
+    } while(j <= 10);
+    i++;
     printf("\n\n");
-  }
+  } while(i <= 10);
   return 0;
 }
