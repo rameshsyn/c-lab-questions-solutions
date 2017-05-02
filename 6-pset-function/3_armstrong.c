@@ -1,0 +1,4 @@
+/*
+  Write a program to find whether the given 
+  number is Armstrong of not using functions.
+*/
