@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 // Prototype declaration
 char *strrev(char*);
@@ -26,8 +27,8 @@ char *strrev(char *str) {
   // Check the size of passed string.
   int str_len = strlen(str);
 
-  // Declare array char to store reversed characters.
-  char reversed[str_len + 1];
+  // Allocate memory to store reversed characters.
+  char *reversed = malloc((sizeof(char) * str_len) + 1);
 
   // Iterate for the passed string length times
   for(int i = 0; i < str_len; i++) {
@@ -36,7 +37,8 @@ char *strrev(char *str) {
     // string to reversed first index....
     reversed[i] = str[(str_len - 1) - i];
   }
-  // point to reversed string memory address
+  // Change the value of passed string to reversed string memory
   str = reversed;
+  // return passed string memory
   return str;
 }
