@@ -1,9 +1,9 @@
 # c-lab-questions-solutions
-It is a repo to store my solutions of c programming lab questions. BedICT 1st semester lab questions set.  
+A solution set of BedICT 1st sem c lab question set.
 
 ---  
-Note: These programs may not run on windows environment,
-      Make sure to include following header file and codes.  
+Note: These programs may not run on windows environment.
+      Make sure to include following header file and code.  
       
       ```
       /* Include this header file */  
